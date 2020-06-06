@@ -1,0 +1,21 @@
+$toolbar-bg: #042f66;
+
+.toolbar-container {
+  background-color: $toolbar-bg;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .toolbar-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .update-label {
+    color: white;
+    transform: rotate(270deg);
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,36 @@
+.Board {
+    border-spacing: 0;
+    width: 100%;
+    td,
+    th {
+      border-bottom: 1px solid #dddddd;
+      padding: 8px;
+    }
+  
+    .things-to-do-cell {
+      border-left: 7px solid lightblue;
+      background-color: #f4f5f7;
+      .to-do-text {
+        float: left;
+        width: 80%;
+      }
+      .chat-icon {
+        float: right;
+        width: 20%;
+      }
+    }
+    .owner-cell {
+      text-align: center;
+    }
+    .status {
+      text-align: center;
+      color: white;
+    }
+    .due-date {
+      text-align: center;
+    }
+    .priority {
+      text-align: center;
+      color: white;
+    }
+  }
